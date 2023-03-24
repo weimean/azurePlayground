@@ -14,7 +14,7 @@ python3 -V
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 2
 sudo update-alternatives --config python3 2
-
+sudo apt install python3.9-distutils
 
 sudo apt install python3-pip -y
 sudo apt-get install -y --no-install-recommends openmpi-bin
