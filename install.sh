@@ -19,6 +19,9 @@ sudo apt install python3.9-distutils -y
 python3 -V
 
 sudo apt install python3-pip -y
+sudo apt pip3 install --upgrade setuptools
+sudo apt pip3 install --upgrade pip
+sudo apt pip3 install --upgrade distlib
 sudo apt-get install -y --no-install-recommends openmpi-bin
 sudo apt-get install -y libopenmpi-dev
 sudo pip3 install -r requirements_node.txt
