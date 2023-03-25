@@ -1,5 +1,5 @@
-mpi4py<=3.1.4
+mpi4py<=3.0.3
 numpy<=1.19.5
-azure-batch<=13.0.0
 matplotlib<=3.7.0
 networkx<=3.0
+azure-storage==0.36.0
